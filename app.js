@@ -13,7 +13,7 @@ var express 		    = require('express');
 var app = express();
 
 // serve the files out of ./public as our main files && use bodyParser to read json
-app.use(express.static(__dirname + '/content'));
+app.use(express.static(__dirname + '/'));
 
 var server = app.listen(3000, function () {
 
